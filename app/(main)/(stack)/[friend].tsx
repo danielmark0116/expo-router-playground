@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import { Stack, useSearchParams } from "expo-router";
-import { Text } from "../../components/Text";
+import { Text } from "app/components/Text";
 
 const Page = () => {
   const { friend } = useSearchParams();
