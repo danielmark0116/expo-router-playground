@@ -1,3 +1,5 @@
 export const useAuth = () => {
-  return { user: "John" };
+  return {
+    user: "John",
+  };
 };
