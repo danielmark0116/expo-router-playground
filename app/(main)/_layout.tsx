@@ -1,9 +1,8 @@
-import { DrawerProps } from "@react-navigation/drawer/lib/typescript/src/types";
 import { Text } from "app/components/Text";
 import { Drawer } from "app/navigation/Drawer";
 import { TouchableOpacity, View } from "react-native";
 
-export default (props: DrawerProps) => {
+export default (props: typeof Drawer["defaultProps"]) => {
   return (
     <Drawer
       screenOptions={{
