@@ -1,6 +1,6 @@
 import { Slot, useRouter, useSegments } from "expo-router";
 import { useEffect } from "react";
-import { useAuth } from "./hooks/useAuth";
+import { useAuth } from "app/hooks/useAuth";
 
 const Root = () => {
   const { replace } = useRouter();

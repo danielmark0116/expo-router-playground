@@ -1,6 +1,6 @@
 import { useRouter } from "expo-router";
 import { View, TouchableOpacity } from "react-native";
-import { Text } from "../../components/Text";
+import { Text } from "app/components/Text";
 
 const friendsList = ["Joey", "Chandler", "Monica", "Rachel", "Phoebe", "Ross"];
 
